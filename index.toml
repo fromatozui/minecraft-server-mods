@@ -6,8 +6,8 @@ hash = "6c158087dff6a7639444f099b0de74d5f661cabd9ad0b8d1a310ba00977201ce"
 metafile = true
 
 [[files]]
-file = "mods/architectury-fabric.toml"
-hash = "fd6f7453e6b6a66b26d32fc6da52d2545e7aadb1b7ccdacb7674ac3d4066a28a"
+file = "mods/architectury-api.toml"
+hash = "8d60a7399c7cab7c8092ea9f3eb8d9868f764926691043e08885ed064b3b3401"
 metafile = true
 
 [[files]]
@@ -26,8 +26,8 @@ hash = "19358b0e2ac72a0921d8d54226497d21ae81bfe43a6c001b71de5ef70871f5c8"
 metafile = true
 
 [[files]]
-file = "mods/cloth-config-legacy.toml"
-hash = "bb42f3c6ab8bebb1686f2f1c545b2939da9d9d3421e3298bcbdd1b4c225ba400"
+file = "mods/cloth-config.toml"
+hash = "25a7ae59066ec8104c5da601dc26923f7d0b7a9906d4c4fe9643222bbf4815aa"
 metafile = true
 
 [[files]]
