@@ -1,0 +1,86 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/adorn.toml"
+hash = "6c158087dff6a7639444f099b0de74d5f661cabd9ad0b8d1a310ba00977201ce"
+metafile = true
+
+[[files]]
+file = "mods/architectury-fabric.toml"
+hash = "fd6f7453e6b6a66b26d32fc6da52d2545e7aadb1b7ccdacb7674ac3d4066a28a"
+metafile = true
+
+[[files]]
+file = "mods/betteranimalsplus.toml"
+hash = "7f2a7c70f64fa46edc4ee21f374f1ee43d557160d2adee56470c58032aa1de61"
+metafile = true
+
+[[files]]
+file = "mods/bosses-of-mass-destruction.toml"
+hash = "30e1835d475de4077be53d9c1bc00938c2661562f6146699a9731add29ad733a"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components.toml"
+hash = "19358b0e2ac72a0921d8d54226497d21ae81bfe43a6c001b71de5ef70871f5c8"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config-legacy.toml"
+hash = "bb42f3c6ab8bebb1686f2f1c545b2939da9d9d3421e3298bcbdd1b4c225ba400"
+metafile = true
+
+[[files]]
+file = "mods/creeper-overhaul.toml"
+hash = "60beb75c107a3ea27316256819f7df9b6310164e96cc4bc4c0aa84107850efa0"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.toml"
+hash = "99fb566fe03abc87d64b6b541cbe225fa856d15c1ef7a6d4de85e6b6fb0c14e8"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.toml"
+hash = "d2fbaf45c8aed07525a3d592a02242db2c2a9a76cf6c995585835282e87d24f5"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-fabric.toml"
+hash = "7d72a95f911c353ef81e226371fc59267805b9510235777b93462dd841df3723"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.toml"
+hash = "17d349130cf0e827c30d5ae07f9b6d1b7c7886533d045f76df2bfe87415a9973"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.toml"
+hash = "0b27e2f0c72ad7e7aad9a83bd7dc18b0c4771304b6834f4d115cc239724334c6"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-biomes-youll-go-fabric.toml"
+hash = "4362cbd1def16c3de4cc531c3de9fe64aad645d68af82ecf86e33376a6cfe451"
+metafile = true
+
+[[files]]
+file = "mods/playerex.toml"
+hash = "ba8f00cae793187cfa1eb5278bdf097ccff3723344b8dcc0467ff5edb48ed74f"
+metafile = true
+
+[[files]]
+file = "mods/terrablender-fabric.toml"
+hash = "186b69f82a549ae21109ec9634e6907ed14506713464196233e63bedfff5a8f3"
+metafile = true
+
+[[files]]
+file = "mods/terralith.toml"
+hash = "314bb864fbd249ff543bb842db256c9a34a4f00645086e2133abe02284f855b9"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise-fabric.toml"
+hash = "d0864bec073e705944ac82a8509b38d9b6c5c1f8e2d7330ba7cf3f3582d0cbb0"
+metafile = true
