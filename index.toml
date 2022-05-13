@@ -74,8 +74,3 @@ metafile = true
 file = "mods/terralith.toml"
 hash = "314bb864fbd249ff543bb842db256c9a34a4f00645086e2133abe02284f855b9"
 metafile = true
-
-[[files]]
-file = "mods/when-dungeons-arise-fabric.toml"
-hash = "d0864bec073e705944ac82a8509b38d9b6c5c1f8e2d7330ba7cf3f3582d0cbb0"
-metafile = true
