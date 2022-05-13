@@ -72,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/optifine.toml"
-hash = "8fa8d43d26ad5f390e1f8a2e04baa82cbbcb9c99f32fa87af245645723c3728f"
+hash = "3e574e16dd6130fab9a4c5f976571ad4361af0effb074c0ffa1103d989e7a764"
 metafile = true
 
 [[files]]
