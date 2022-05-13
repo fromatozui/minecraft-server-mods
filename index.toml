@@ -66,6 +66,16 @@ hash = "4362cbd1def16c3de4cc531c3de9fe64aad645d68af82ecf86e33376a6cfe451"
 metafile = true
 
 [[files]]
+file = "mods/optifabric.toml"
+hash = "1df43a076d2d7a92d3b6db446560840700a163644f8c5734636cffbef07c853f"
+metafile = true
+
+[[files]]
+file = "mods/optifine.toml"
+hash = "e6c0bc1519bd331c71819a731ba1c036ed70b8af159dbf0c32dc6de671844d2d"
+metafile = true
+
+[[files]]
 file = "mods/terrablender-fabric.toml"
 hash = "186b69f82a549ae21109ec9634e6907ed14506713464196233e63bedfff5a8f3"
 metafile = true
