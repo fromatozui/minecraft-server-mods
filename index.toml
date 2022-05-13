@@ -66,11 +66,6 @@ hash = "4362cbd1def16c3de4cc531c3de9fe64aad645d68af82ecf86e33376a6cfe451"
 metafile = true
 
 [[files]]
-file = "mods/playerex.toml"
-hash = "ba8f00cae793187cfa1eb5278bdf097ccff3723344b8dcc0467ff5edb48ed74f"
-metafile = true
-
-[[files]]
 file = "mods/terrablender-fabric.toml"
 hash = "186b69f82a549ae21109ec9634e6907ed14506713464196233e63bedfff5a8f3"
 metafile = true
