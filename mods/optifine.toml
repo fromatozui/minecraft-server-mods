@@ -1,0 +1,8 @@
+name = "Optifine"
+filename = "optifine.jar"
+side = "client"
+
+[download]
+url = "https://files2.9minecraft.net/index.php?act=download&id=1649862153&hash=627ddf1fb3042"
+hash-format = "sha256"
+hash = "d60077e2a1ae0d3bf2057486ad245d83a009982b2b03843f4c806820dc5c9668"
