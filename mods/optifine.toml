@@ -1,8 +1,0 @@
-name = "Optifine"
-filename = "optifine.jar"
-side = "client"
-
-[download]
-url = "https://optifine.net/downloadx?f=OptiFine_1.18.2_HD_U_H7.jar&x=ca0de2c938f6d2f6000fdab975fc9fbe"
-hash-format = "sha1"
-hash = "e180597ffa4f22dbd8a6e576ef00e6e86101c432"

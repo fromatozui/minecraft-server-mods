@@ -71,11 +71,6 @@ hash = "1df43a076d2d7a92d3b6db446560840700a163644f8c5734636cffbef07c853f"
 metafile = true
 
 [[files]]
-file = "mods/optifine.toml"
-hash = "3e574e16dd6130fab9a4c5f976571ad4361af0effb074c0ffa1103d989e7a764"
-metafile = true
-
-[[files]]
 file = "mods/terrablender-fabric.toml"
 hash = "186b69f82a549ae21109ec9634e6907ed14506713464196233e63bedfff5a8f3"
 metafile = true
