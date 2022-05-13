@@ -19,6 +19,11 @@ hash = "8d60a7399c7cab7c8092ea9f3eb8d9868f764926691043e08885ed064b3b3401"
 metafile = true
 
 [[files]]
+file = "mods/badpackets.toml"
+hash = "4985898441d775d014ec0a1cfc69e9a1f92b01de5204f3c299951261bd182ea9"
+metafile = true
+
+[[files]]
 file = "mods/betteranimalsplus.toml"
 hash = "7f2a7c70f64fa46edc4ee21f374f1ee43d557160d2adee56470c58032aa1de61"
 metafile = true
@@ -111,6 +116,21 @@ metafile = true
 [[files]]
 file = "mods/terralith.toml"
 hash = "314bb864fbd249ff543bb842db256c9a34a4f00645086e2133abe02284f855b9"
+metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+hash = "f5276d848c4ad487529368d1e11c92252bb4745c9e74446d98896504337e0ac5"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.toml"
+hash = "ebf5fdabc760b83bd8cc952dd798a9feceacb82004357b3d5e8f908b79634c01"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.toml"
+hash = "b2397940f23e24b49a1d08dbfe4aae584f66bededf5e591f35c097e3dbea6d2d"
 metafile = true
 
 [[files]]
