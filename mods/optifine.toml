@@ -5,4 +5,4 @@ side = "client"
 [download]
 url = "https://raw.githubusercontent.com/fromatozui/minecraft-server-mods/main/external_mods/OptiFine_1.18.2_HD_U_H7.jar"
 hash-format = "sha256"
-hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+hash = "79264fa2994e78a48321abe75191162290dcb6e9e307287eee60e53ff8962a99"
