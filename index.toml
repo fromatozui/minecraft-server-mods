@@ -70,7 +70,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.toml"
-hash = "439297a26554e1723ca14ff0142e18a12180700578c270e23501e4b1083dc2f4"
+hash = "1b5f08b838c389f1122941652a952c4e1abe8087eaf8ce9b0ebc1661a0e2ca4d"
 metafile = true
 
 [[files]]
@@ -91,6 +91,11 @@ metafile = true
 [[files]]
 file = "mods/optifine.toml"
 hash = "c945fd0de508192f6ef17157c95b2322c10e828531776c57d4877ef9b899ea42"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.toml"
+hash = "d6dd0910234eac7b8e87c02163f5921ef07fb785483e7e063b0d893b172ed5b0"
 metafile = true
 
 [[files]]
