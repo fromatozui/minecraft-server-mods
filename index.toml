@@ -36,6 +36,11 @@ hash = "60beb75c107a3ea27316256819f7df9b6310164e96cc4bc4c0aa84107850efa0"
 metafile = true
 
 [[files]]
+file = "mods/data-attributes.toml"
+hash = "4c908c1892216a05e04f490955b62293bc1d0c59147f8b47ddce64553157d424"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.toml"
 hash = "99fb566fe03abc87d64b6b541cbe225fa856d15c1ef7a6d4de85e6b6fb0c14e8"
 metafile = true
@@ -52,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "17d349130cf0e827c30d5ae07f9b6d1b7c7886533d045f76df2bfe87415a9973"
+hash = "f107c40755ac9df0ed61b590c80e604ec476cbbb2b1e0b0d53a4aedf576a829a"
 metafile = true
 
 [[files]]
