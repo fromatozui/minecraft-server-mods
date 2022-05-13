@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "external_mods/DynamicSurroundings-Fabric-1.18.2-0.0.4.jar"
+hash = "0b79f9b3fd7055d2ca4053bcadbb0a2243294f697ac689fd34f098848f861c96"
+
+[[files]]
 file = "external_mods/OptiFine_1.18.2_HD_U_H7.jar"
 hash = "79264fa2994e78a48321abe75191162290dcb6e9e307287eee60e53ff8962a99"
 
@@ -40,6 +44,11 @@ hash = "60beb75c107a3ea27316256819f7df9b6310164e96cc4bc4c0aa84107850efa0"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-surroundings.toml"
+hash = "1e2c732217e6080a28ffb31af78b018fd8485d145608cda1c5398c67962cc23c"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.toml"
 hash = "99fb566fe03abc87d64b6b541cbe225fa856d15c1ef7a6d4de85e6b6fb0c14e8"
 metafile = true
@@ -57,6 +66,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib.toml"
 hash = "f107c40755ac9df0ed61b590c80e604ec476cbbb2b1e0b0d53a4aedf576a829a"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.toml"
+hash = "439297a26554e1723ca14ff0142e18a12180700578c270e23501e4b1083dc2f4"
 metafile = true
 
 [[files]]

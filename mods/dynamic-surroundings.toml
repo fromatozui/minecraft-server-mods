@@ -1,0 +1,8 @@
+name = "Dynamic Surroundings"
+filename = "DynamicSurroundings-Fabric-1.18.2-0.0.4.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/fromatozui/minecraft-server-mods/main/external_mods/DynamicSurroundings-Fabric-1.18.2-0.0.4.jar"
+hash-format = "sha256"
+hash = "79264fa2994e78a48321abe75191162290dcb6e9e307287eee60e53ff8962a99"
