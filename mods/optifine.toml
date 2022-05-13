@@ -3,6 +3,6 @@ filename = "optifine.jar"
 side = "client"
 
 [download]
-url = "https://files2.9minecraft.net/index.php?act=download&id=1649862153&hash=627ddf1fb3042"
+url = "https://raw.githubusercontent.com/fromatozui/minecraft-server-mods/main/external_mods/OptiFine_1.18.2_HD_U_H7.jar"
 hash-format = "sha256"
 hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"

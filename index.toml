@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "external_mods/OptiFine_1.18.2_HD_U_H7.jar"
+hash = "79264fa2994e78a48321abe75191162290dcb6e9e307287eee60e53ff8962a99"
+
+[[files]]
 file = "mods/adorn.toml"
 hash = "6c158087dff6a7639444f099b0de74d5f661cabd9ad0b8d1a310ba00977201ce"
 metafile = true
@@ -72,7 +76,7 @@ metafile = true
 
 [[files]]
 file = "mods/optifine.toml"
-hash = "241ed9988e1326318a8e0503acbe81cafa4ac83c7200d0f37c14206b682cb092"
+hash = "a643c371ed8a2115c7297c9a9f281463412db686d75ee42a6d214182f20793c2"
 metafile = true
 
 [[files]]
