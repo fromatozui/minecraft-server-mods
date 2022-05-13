@@ -4,5 +4,5 @@ side = "client"
 
 [download]
 url = "https://optifine.net/downloadx?f=OptiFine_1.18.2_HD_U_H7.jar&x=ca0de2c938f6d2f6000fdab975fc9fbe"
-hash-format = "sha1"
-hash = "9aacdb072f3194207f0450e94a9d206800779fec"
+hash-format = "sha256"
+hash = "fb751d843931e3cd71c428e6999710b2b7cfa510395aa2099c3922d8b2e8d7ad"
