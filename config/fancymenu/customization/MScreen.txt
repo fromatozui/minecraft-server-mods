@@ -1,0 +1,45 @@
+type = menu
+
+customization-meta {
+  identifier = com.bisecthosting.mods.bhmenu.modules.servercreatorbanner.screens.BHMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=33%
+  orientation = bottom-left
+  x = 16
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=33%
+  width = 95
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=660946%
+  orientation = bottom-left
+  x = 16
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=660946%
+  width = 95
+  action = resizebutton
+  height = 20
+}
+

@@ -1,0 +1,13 @@
+name = "Mythic Upgrades [FABRIC]"
+filename = "mythicupgrades-1.5.1+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "44da6488c27402ac8fcba75ea2a8c5c510df11a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4388965
+project-id = 663567

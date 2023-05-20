@@ -1,0 +1,121 @@
+{
+	quest_links: [{
+		linked_quest: "1A63418253F51878"
+		id: "783FDE11C7E9D64C"
+		shape: "octagon"
+		y: 1.5d
+		x: 0.0d
+	}]
+	default_hide_dependency_lines: false
+	group: "3E586F2160161EEA"
+	id: "503DBAFD69E76B68"
+	filename: "the_moon"
+	default_quest_shape: ""
+	icon: "ad_astra:moon_globe"
+	title: "&b The Moon"
+	images: [{
+		rotation: 15.0d
+		image: "ad_astra:textures/sky/moon.png"
+		width: 2.0d
+		click: ""
+		hover: [ ]
+		x: 0.0d
+		y: -3.5d
+		corner: false
+		dev: false
+		height: 2.0d
+	}]
+	order_index: 7
+	quests: [
+		{
+			size: 1.25d
+			id: "3C785BAD5030D7E0"
+			icon: "ad_astra:moon_globe"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			title: "&b&lTo the Moon!"
+			subtitle: "Visit &bThe Moon&r using your Tier I rocket."
+			dependencies: ["1A63418253F51878"]
+			tasks: [{
+				type: "dimension"
+				id: "10B72B900101BE15"
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				title: "Go to The Moon!"
+			}]
+		}
+		{
+			tasks: [{
+				type: "observation"
+				id: "1993A0C3FB852054"
+				observe_type: 5
+				title: "Find a Lunarian"
+				icon: "minecraft:emerald"
+				to_observe: "ad_astra:lunarian"
+				timer: 0L
+			}]
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "merchantmarkers:textures/entity/villager/default.png"
+				}
+			}
+			id: "610545E2AF0860F0"
+			x: -1.5d
+			y: -1.0d
+			title: "&f&lCivilization: &bThe Lunarian!"
+			subtitle: "The Lunarian are a villager-like civilization from &bThe Moon&r. You can find them wandering or in one of the structures."
+			dependencies: ["3C785BAD5030D7E0"]
+		}
+		{
+			tasks: [{
+				id: "7A85F484FB64AB72"
+				type: "item"
+				item: {
+					id: "ad_astra:tier_1_rover"
+					Count: 1b
+					tag: {
+						BotariumData: { }
+					}
+				}
+			}]
+			icon: {
+				id: "ad_astra:tier_1_rover"
+				Count: 1b
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "62F0B50E979D2A3D"
+			x: 1.5d
+			y: -1.0d
+			title: "&f&lVehicle: &eRovers! "
+			subtitle: "The Rover is a vehicle that will allow you to explore the moon with ease!"
+			dependencies: ["3C785BAD5030D7E0"]
+		}
+		{
+			tasks: [{
+				id: "5D7D6C76F5BEEA14"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+			}]
+			id: "5B0DD8FCAA502C27"
+			x: 0.0d
+			y: -2.0d
+			title: "&f&lOre: &eDesh!"
+			rewards: [{
+				id: "4A9AE2EB66ED8461"
+				type: "item"
+				item: "ad_astra:desh_ingot"
+				count: 3
+			}]
+			subtitle: "&eDesh&r is an important ore from The Moon that will allow you to craft things such as &eRovers&r, and &cTier 2 Rockets&r."
+			dependencies: [
+				"3C785BAD5030D7E0"
+				"1A63418253F51878"
+			]
+		}
+	]
+}

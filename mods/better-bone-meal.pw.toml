@@ -1,0 +1,13 @@
+name = "Better Bone Meal"
+filename = "Fertilizer 1.19 Forge v.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5792741e35d4531dfc474cf0e96f26c342b6dfda"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4017256
+project-id = 635804

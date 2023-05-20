@@ -1,0 +1,13 @@
+name = "WizardEx"
+filename = "WizardEx-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e1267b93ccd985e5475ccbd6ca88d8cef451c4b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4435573
+project-id = 832419

@@ -1,0 +1,464 @@
+{
+	quest_links: [
+		{
+			linked_quest: "67F6373B6563BA26"
+			x: -2.5d
+			y: -0.5d
+			id: "7CE73D3744D669A0"
+		}
+		{
+			linked_quest: "753DE893435F887A"
+			x: -2.0d
+			y: -4.0d
+			id: "24440B96CC450545"
+		}
+	]
+	filename: "magic"
+	group: "244F516C4853FD2F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	icon: "hexcasting:oak_staff"
+	subtitle: ["A simple introduction to some of the magic mods from Prominence. You can see more of them in their chapters."]
+	order_index: 0
+	id: "7587C878D41DBA68"
+	title: " &eIntroduction:&d Magic"
+	progression_mode: "flexible"
+	images: [
+		{
+			rotation: 0.0d
+			image: "bewitchment:item/book_of_shadows"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -3.0d
+			y: -6.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "archon:item/grimoire"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -4.5d
+			y: -0.5d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "merchantmarkers:textures/entity/villager/markers/wizards__wizard_merchant.png"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 4.5d
+			y: -1.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "spectrum:item/guidebook"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 2.0d
+			y: -7.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "prominent:textures/text/wizards.png"
+			width: 1.9d
+			click: ""
+			hover: [ ]
+			x: 4.476190476190489d
+			y: -1.735119047619051d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "prominent:textures/text/bewitchment.png"
+			width: 2.504166666666667d
+			click: ""
+			hover: [ ]
+			x: -2.9773809523809476d
+			y: -6.749064625850345d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "prominent:textures/text/archon.png"
+			width: 2.504166666666667d
+			click: ""
+			hover: [ ]
+			x: -4.501190476190466d
+			y: -1.1776360544217752d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+	]
+	quests: [
+		{
+			tasks: [{
+				id: "0251E1CDF683270A"
+				type: "item"
+				title: "Get any Gemstone Shard"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "spectrum:gemstone_shards"
+					}
+				}
+			}]
+			description: ["Start your magical journey with Spectrum."]
+			x: 2.0d
+			id: "587AE18E18D398A3"
+			y: -6.0d
+			shape: "hexagon"
+			title: "&e&lSpectrum:&r Light Magic"
+			rewards: [{
+				id: "22851F6001D9280A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Get any &dGemstone Shard&r to get the &aColorful World&r book. &6This is a Guide Book for Spectrum."
+		}
+		{
+			tasks: [{
+				id: "3896B981A4B39779"
+				type: "item"
+				item: {
+					id: "wizards:wand_novice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			x: 3.5d
+			id: "25C4009ED394C378"
+			y: -1.0d
+			shape: "hexagon"
+			title: "&b&lWizards:&r &rControl the elements"
+			rewards: [
+				{
+					id: "3A1529ED0A592300"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 16
+				}
+				{
+					id: "4D95A630D853C852"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Craft a &aNovice Wand&r. Used to cast spells."
+		}
+		{
+			tasks: [{
+				id: "0FBDBC1D9FEEB438"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			x: -3.5d
+			id: "71FDA3C6C72916E3"
+			y: -0.5d
+			shape: "hexagon"
+			title: "&3&lArchon:&r Become a Sorcerer"
+			rewards: [{
+				id: "3499020ED5EFAC50"
+				type: "item"
+				item: "archon:grimoire"
+			}]
+			subtitle: "Get &3Lapis Lazuli&r to start your sorcerer's journey"
+		}
+		{
+			size: 1.2d
+			id: "0FE741CD77EC61BF"
+			x: 3.0d
+			y: 0.0d
+			shape: "diamond"
+			title: "Create a &cRune Crafting Altar"
+			rewards: [{
+				id: "30EAA1DF08B87F10"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			subtitle: "Using the &cRune Crafting Altar&r gives more &cRunes&r than a Crafting Table does."
+			dependencies: ["25C4009ED394C378"]
+			tasks: [{
+				id: "2DDC3DF992EEB643"
+				type: "item"
+				item: "runes:crafting_altar"
+			}]
+		}
+		{
+			tasks: [{
+				id: "30E92CCDFAFE96D2"
+				type: "item"
+				title: "Any #wizards:wizard_runes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "wizards:wizard_runes"
+					}
+				}
+			}]
+			id: "2E418B5FD8435F43"
+			x: 2.310204081632662d
+			y: 0.6923469387755077d
+			title: "Craft a &cRune"
+			rewards: [
+				{
+					id: "119E3B3CB3CBC7C1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "13AC28EF25C7CFD3"
+					type: "item"
+					item: "minecraft:amethyst_cluster"
+				}
+				{
+					id: "02667B625FA38A7D"
+					type: "item"
+					item: "minecraft:gunpowder"
+				}
+				{
+					id: "7D594D6816CD464D"
+					type: "item"
+					item: "minecraft:snowball"
+				}
+			]
+			subtitle: "Used as ammo for &aWands&r."
+			dependencies: ["0FE741CD77EC61BF"]
+		}
+		{
+			size: 1.2d
+			id: "40FF415DCC0387EA"
+			x: 3.0d
+			y: -2.0d
+			shape: "diamond"
+			title: "Create a &6Spell Binding Table"
+			rewards: [
+				{
+					id: "3E2D9F9F0B6C3B83"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "783F171C79AEDDE3"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 6
+				}
+			]
+			subtitle: "Used to bind spells to a &aWand&r. Adding bookshelves gives better spells. &aWands&r can be given enchants with a regular &5Enchantment Table&r."
+			dependencies: ["25C4009ED394C378"]
+			tasks: [{
+				id: "6005681C61B15545"
+				type: "item"
+				item: "spell_engine:spell_binding"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "2EE4C8B7F980D709"
+					type: "item"
+					item: {
+						id: "wizards:staff_crystal_arcane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6B610B74DF2C7800"
+					type: "item"
+					item: {
+						id: "wizards:staff_ruby_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3876EAA14D5A44A7"
+					type: "item"
+					item: {
+						id: "wizards:staff_smaragdant_frost"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "5C3FE33912FC0258"
+			x: 1.0d
+			y: 0.0d
+			title: "Craft all three of the most powerful &aWands"
+			rewards: [{
+				id: "2647F46DBF8D4A5A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Different &aWand &rtypes have different spells."
+			dependencies: ["2E418B5FD8435F43"]
+		}
+		{
+			tasks: [
+				{
+					id: "461719C1DE9424EF"
+					type: "item"
+					item: {
+						id: "spellbladenext:blade_arcane"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "27A5F0A3B1C18629"
+					type: "item"
+					item: {
+						id: "spellbladenext:blade_fire"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "087FCFF8AD32D3A7"
+					type: "item"
+					item: {
+						id: "spellbladenext:blade_frost"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "05D834D0FFABB34B"
+			x: 1.0d
+			y: -2.0d
+			title: "Craft all three &bSpellblades"
+			rewards: [{
+				id: "7AFC7E4ECC3F6A52"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			subtitle: "Its like a &aWand&r, but instead of a &aWand&r, its a &bBlade!"
+			dependencies: ["49E66BDB498C5D39"]
+		}
+		{
+			tasks: [{
+				type: "structure"
+				structure: "wizards:wizard_merchant"
+				id: "341360F8B33079F7"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "merchantmarkers:textures/entity/villager/markers/wizards__wizard_merchant.png"
+					}
+				}
+				title: "Find a Wizard Merchant"
+			}]
+			x: 2.0d
+			id: "4C1FF37CFC7EA3E5"
+			y: -1.0d
+			shape: "rsquare"
+			title: "Find a &3Wizard Merchant"
+			rewards: [{
+				id: "4DDC6ECB105A60A4"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 3
+			}]
+			subtitle: "Sells powerful wizard equipment."
+			dependencies: ["25C4009ED394C378"]
+		}
+		{
+			tasks: [{
+				id: "1FF1106A0394DD59"
+				type: "item"
+				item: "bewitchment:book_of_shadows"
+			}]
+			x: -3.0d
+			id: "1A2678E00D9C05EB"
+			y: -5.0d
+			shape: "hexagon"
+			title: "&c&lBewitchment: &rEmbrace the darkness"
+			rewards: [{
+				id: "669BC30B0DA0D327"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "&eCraft the book of darkness. &rGet &3Mandrake Seeds&r, which drops from destroying grass, grows into &3Mandrake Roots &rwhen planted."
+		}
+		{
+			tasks: [
+				{
+					id: "04C4136A01A94A34"
+					type: "item"
+					item: "spellbladenext:runeblazing_ingot"
+				}
+				{
+					id: "3315E24561178846"
+					type: "item"
+					item: "spellbladenext:runegleaming_ingot"
+				}
+				{
+					id: "6BE9740431360EDF"
+					type: "item"
+					item: "spellbladenext:runefrosted_ingot"
+				}
+			]
+			id: "49E66BDB498C5D39"
+			x: 2.3214285714285765d
+			y: -2.743112244897958d
+			title: "Craft all three &bSpellblade Ingots"
+			rewards: [
+				{
+					id: "67848B7C7B766903"
+					type: "item"
+					item: "spellbladenext:runeblazing_ingot"
+				}
+				{
+					id: "5BF956C42D7992E5"
+					type: "item"
+					item: "spellbladenext:runegleaming_ingot"
+				}
+				{
+					id: "41BB7D37E46A68F9"
+					type: "item"
+					item: "spellbladenext:runefrosted_ingot"
+				}
+			]
+			subtitle: "Used to create Spellblade armor that increases the power of &bSpellblades&r."
+			dependencies: ["40FF415DCC0387EA"]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Mine Cells - Dead Cells Mod"
+filename = "minecells-1.4.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1193ef4c209f4bcb1920a34bbef691fe001382c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4501789
+project-id = 618790

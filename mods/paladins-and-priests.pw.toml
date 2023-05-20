@@ -1,0 +1,13 @@
+name = "Paladins & Priests"
+filename = "paladins-fabric-0.9.2+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "36dec2155c967fcdbbe62e8f96f2fcee93a605e5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4530520
+project-id = 856548

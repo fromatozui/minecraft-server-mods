@@ -1,0 +1,13 @@
+{
+  "blacklisted_items": [
+    "minecells:cursed_sword",
+    "soulsweapons:gatling_gun",
+    "soulsweapons:blunderbuss",
+    "soulsweapons:hunter_pistol",
+    "soulsweapons:hunter_cannon",
+    "twilightforest:glass_sword",
+    "relicex:tome"
+  ],
+  "only_disable_interactions": [],
+  "only_disable_attacks": []
+}

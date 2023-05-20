@@ -1,0 +1,13 @@
+name = "Botany Trees"
+filename = "BotanyTrees-Fabric-1.19.2-5.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6343ae5c5ec13368395e38cab3d40b3583072ba5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4529268
+project-id = 411357

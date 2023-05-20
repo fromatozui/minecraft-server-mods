@@ -1,0 +1,12 @@
+{
+  "serverBrowserNotification": false,
+  "bisectPackID": "18920",
+  "modPackFilter": "Prominence Fabric",
+  "officialServers": [
+    {
+      "name": "Prominence SMP",
+      "ipAddress": "prominence.modded.fun"
+    }
+  ],
+  "blacklistedServers": []
+}

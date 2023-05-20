@@ -1,0 +1,12 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "244F516C4853FD2F"
+	id: "23EFB4F3AE02A0C0"
+	filename: "d_hex_casting"
+	default_quest_shape: ""
+	icon: "hexcasting:dark_oak_staff"
+	title: "&d Hex Casting"
+	order_index: 2
+	quests: [ ]
+}

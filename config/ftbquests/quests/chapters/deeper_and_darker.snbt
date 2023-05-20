@@ -1,0 +1,203 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "3E586F2160161EEA"
+	id: "4B6E4A0215F45FC0"
+	filename: "deeper_and_darker"
+	default_quest_shape: ""
+	icon: "deeperdarker:heart_of_the_deep"
+	title: " &3The Otherside"
+	images: [
+		{
+			rotation: 0.0d
+			image: "prominent:textures/text/the_otherside.png"
+			width: 3.8d
+			click: ""
+			hover: [ ]
+			x: 12.0d
+			y: 0.5d
+			corner: false
+			dev: false
+			height: 2.0d
+		}
+		{
+			rotation: 0.0d
+			image: "deeperdarker:item/heart_of_the_deep"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 11.926190476190477d
+			y: 1.672619047619051d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+	]
+	order_index: 6
+	quests: [
+		{
+			size: 1.5d
+			x: 7.0d
+			id: "731C3214BB61FDAE"
+			y: 4.0d
+			shape: "pentagon"
+			title: "&lBossfight:&r &3The Warden"
+			rewards: [{
+				id: "1A22694A70BE865A"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+			subtitle: "Found underground in the &aOverworld&r."
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "37E411F497C9CD71"
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_sensor"
+				title: "Kill a Warden"
+			}]
+		}
+		{
+			tasks: [{
+				id: "42CA7AAF304767E7"
+				type: "item"
+				item: {
+					id: "deeperdarker:warden_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "44937B2D2EB38094"
+			x: 5.5d
+			y: 3.0d
+			title: "Craft a &9Warden Helmet"
+			rewards: [{
+				id: "2B6B4A1DB2165CC7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Used to negate the darkness in &8&lThe Otherside."
+			dependencies: ["731C3214BB61FDAE"]
+		}
+		{
+			size: 2.0d
+			id: "704CCA2CEAB23B4D"
+			x: 7.0d
+			y: 2.0d
+			shape: "hexagon"
+			title: "&lEntering:&r &8&lThe Otherside"
+			rewards: [{
+				id: "336DFFDBA2B4F736"
+				type: "item"
+				item: "deeperdarker:ancient_vase"
+			}]
+			subtitle: "Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."
+			dependencies: ["731C3214BB61FDAE"]
+			tasks: [{
+				type: "dimension"
+				id: "474D2D76F2256297"
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:reinforced_deepslate"
+				title: "Enter The Otherside"
+			}]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "5B9501581479A2EC"
+				entity: "deeperdarker:shattered"
+				icon: "deeperdarker:soul_dust"
+				title: "Kill a Shattered"
+			}]
+			id: "6E7D3242496F4501"
+			x: 5.5d
+			y: 0.0d
+			title: "Kill a &3Shattered"
+			rewards: [{
+				id: "64D2CD3086F0814E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			dependencies: ["704CCA2CEAB23B4D"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "1D807C8DC05EF208"
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:soul_crystal"
+				title: "Kill a Stalker"
+			}]
+			id: "192EE909C57F390A"
+			x: 7.0d
+			y: 0.0d
+			title: "Kill a &3Stalker"
+			rewards: [{
+				id: "32D7431007C483AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
+			dependencies: ["704CCA2CEAB23B4D"]
+		}
+		{
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "3D7BD985875AFF57"
+				entity: "deeperdarker:shriek_worm"
+				icon: "deeperdarker:sculk_bone"
+				title: "Kill a Shriek Worm"
+			}]
+			id: "3CBDB45D65737212"
+			x: 8.5d
+			y: 0.0d
+			title: "Kill a &7Shriek Worm"
+			rewards: [{
+				id: "65BC1997E31DF6FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found by stepping on Infested Sculk"
+			dependencies: ["704CCA2CEAB23B4D"]
+		}
+		{
+			tasks: [{
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				id: "1D6626E5E7609F88"
+				icon: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				to_observe: "deeperdarker:sculk_snapper"
+			}]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FF69526C1DC1593"
+			x: 9.0d
+			y: 2.0d
+			title: "Find a &2Sculk Snapper"
+			rewards: [{
+				id: "67FB94C359F4DC55"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "
+			dependencies: ["704CCA2CEAB23B4D"]
+		}
+	]
+}

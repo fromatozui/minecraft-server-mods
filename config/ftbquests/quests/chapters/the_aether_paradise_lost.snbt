@@ -1,0 +1,332 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "3E586F2160161EEA"
+	id: "024E592B6E4CA5F5"
+	filename: "the_aether_paradise_lost"
+	default_quest_shape: ""
+	icon: "paradise_lost:portal"
+	title: " &bThe Paradise &7(Aether)"
+	images: [
+		{
+			rotation: 0.0d
+			image: "prominent:textures/text/the_paradise.png"
+			width: 5.025d
+			click: ""
+			hover: [ ]
+			x: -3.0d
+			y: -2.75d
+			corner: false
+			dev: false
+			height: 2.0d
+		}
+		{
+			rotation: 0.0d
+			image: "paradise_lost:textures/mob_effect/simmering.png"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -3.6666666666666643d
+			y: -0.3214285714285694d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "paradise_lost:textures/mob_effect/simmering.png"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -2.19047619047619d
+			y: -0.4642857142857153d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "paradise_lost:textures/mob_effect/simmering.png"
+			width: 1.5d
+			click: ""
+			hover: [ ]
+			x: -2.952380952380956d
+			y: -0.1785714285714306d
+			corner: false
+			dev: false
+			height: 1.5d
+		}
+	]
+	order_index: 3
+	quests: [
+		{
+			size: 2.0d
+			id: "6FCB97F1804B6504"
+			icon: "paradise_lost:portal"
+			x: -3.0d
+			y: -1.0d
+			shape: "octagon"
+			title: "&lEntering:&r &b&lParadise Lost"
+			rewards: [{
+				id: "5FA799AE508364CF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "To enter &bParadise Lost&r, build a portal with &eglowstone &rin the shape of a &cNether &rPortal. Light the portal with a water bucket."
+			tasks: [{
+				type: "dimension"
+				id: "02EC750DD1DAB99F"
+				dimension: "paradise_lost:paradise_lost"
+				icon: "minecraft:glowstone"
+				title: "Visit Paradise Lost"
+			}]
+		}
+		{
+			tasks: [{
+				id: "5359AC6DC2D95A40"
+				type: "item"
+				item: "paradise_lost:levitator"
+			}]
+			id: "00C313467CF73F0F"
+			x: -1.5d
+			y: 0.5d
+			title: "Craft a &8Gravitite Levitator"
+			rewards: [{
+				id: "57307E941DD0BB10"
+				type: "item"
+				item: {
+					id: "supplementaries:quiver"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			subtitle: "Redstone powered."
+			dependencies: ["6FCB97F1804B6504"]
+		}
+		{
+			tasks: [{
+				id: "7A577B89597E1D60"
+				type: "item"
+				item: "paradise_lost:amadrys_bread_glazed"
+			}]
+			id: "15CBBDF78EE29201"
+			x: 0.0d
+			y: 1.0d
+			title: "Craft a &9Blue Gummy Swet"
+			rewards: [{
+				id: "05F25621AF094BF8"
+				type: "item"
+				item: "paradise_lost:incubator"
+			}]
+			subtitle: "A tasty snack"
+			dependencies: ["00C313467CF73F0F"]
+		}
+		{
+			tasks: [{
+				id: "0921F0B1A9C5FA1A"
+				type: "item"
+				title: "Get a cloud"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "paradise_lost:clouds"
+					}
+				}
+			}]
+			id: "636445378EBA9D05"
+			x: -4.5d
+			y: 0.5d
+			title: "Get a &eCloud"
+			subtitle: "Clouds are found in large quantities all around the Paradise."
+			dependencies: ["6FCB97F1804B6504"]
+		}
+		{
+			tasks: [{
+				id: "78A4B592679A8D9B"
+				type: "item"
+				title: "Get a parachute"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "paradise_lost:parachutes"
+					}
+				}
+			}]
+			id: "73FB23890CFB4DEA"
+			x: -6.0d
+			y: 1.0d
+			title: "&eGliding through the skies!"
+			rewards: [{
+				id: "321679B7451FDCC5"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Craft a Parachute. Using 3 clouds and a string."
+			dependencies: ["636445378EBA9D05"]
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 10L
+				id: "5ED11ADF2C8C2866"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "paradise_lost:logs"
+					}
+				}
+				title: "Get 10x Wood Logs from the paradise!"
+			}]
+			id: "0F8D744BFA202EC7"
+			x: -3.0d
+			y: 1.5d
+			title: "&6Paradise's Woods!"
+			rewards: [
+				{
+					id: "0D3AD3EBCB93546B"
+					type: "item"
+					item: "paradise_lost:olvite"
+				}
+				{
+					id: "55D044B832CFADC6"
+					type: "xp"
+					xp: 160
+				}
+			]
+			dependencies: ["6FCB97F1804B6504"]
+		}
+		{
+			tasks: [{
+				id: "77BEF56BD4D839F7"
+				type: "item"
+				item: "paradise_lost:olvite"
+			}]
+			id: "22D249DDE5979763"
+			x: -3.0d
+			y: 3.0d
+			title: "Get &eOlvite, The Paradise's Gem"
+			rewards: [{
+				id: "187E8E6A7F3A5C0F"
+				type: "xp"
+				xp: 140
+			}]
+			dependencies: ["0F8D744BFA202EC7"]
+		}
+		{
+			tasks: [
+				{
+					id: "700EC2C1666D15DC"
+					type: "item"
+					item: {
+						id: "paradise_lost:olvite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F6E7344467BE52E"
+					type: "item"
+					item: {
+						id: "paradise_lost:olvite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48A92011C5DA3A74"
+					type: "item"
+					item: {
+						id: "paradise_lost:olvite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "071B6BE63EC0E0C3"
+					type: "item"
+					item: {
+						id: "paradise_lost:olvite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			id: "117CD47B80B6BF8B"
+			x: -2.0d
+			y: 4.5d
+			title: "&2Olvite Armor!"
+			rewards: [
+				{
+					id: "031FB8249AF8AA7A"
+					type: "xp"
+					xp: 110
+				}
+				{
+					id: "7F83ED523C824FFB"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+				}
+			]
+			dependencies: ["22D249DDE5979763"]
+		}
+		{
+			tasks: [{
+				id: "14E58564C6E2B0CB"
+				type: "item"
+				item: {
+					id: "paradise_lost:olvite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			id: "7830A3D9EFEAF8B1"
+			x: -4.0d
+			y: 4.5d
+			title: "&2The Olvite Offensive"
+			rewards: [
+				{
+					id: "35002EFFBB93F242"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 3s
+							}]
+						}
+					}
+				}
+				{
+					id: "2FDD1AC7F6166E71"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			dependencies: ["22D249DDE5979763"]
+		}
+	]
+}

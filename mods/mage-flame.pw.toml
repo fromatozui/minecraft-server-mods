@@ -1,0 +1,13 @@
+name = "Mage Flame"
+filename = "MageFlame-fabric-mc1.19.2-v1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3dad2b256f344b3abd5a1123e570625c5fb1689d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4529153
+project-id = 817636

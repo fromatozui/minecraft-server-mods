@@ -1,0 +1,13 @@
+name = "Spellblades and Such"
+filename = "spellbladenext-fabric-1.0.20.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b84661f24660ed8be24e2975e2ac1a3c90e08a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4532431
+project-id = 811662

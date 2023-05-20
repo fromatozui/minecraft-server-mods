@@ -1,0 +1,13 @@
+name = "Prominent"
+filename = "Prominent-FABRIC-MC1.19.2-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92b2ec58d055b545c90e7d73af77eec63e35d10c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4523441
+project-id = 835867

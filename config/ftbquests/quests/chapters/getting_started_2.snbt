@@ -1,0 +1,259 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "3E586F2160161EEA"
+	id: "6960F5F2F7DD3F4F"
+	filename: "getting_started_2"
+	default_quest_shape: ""
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "minecraft:block/nether_portal"
+		}
+	}
+	title: " &cThe Nether"
+	images: [
+		{
+			rotation: 0.0d
+			image: "decorative_blocks:block/bonfire_x_alt"
+			width: 3.0d
+			click: ""
+			hover: [ ]
+			x: 0.0d
+			y: -3.5d
+			corner: false
+			dev: false
+			height: 3.0d
+		}
+		{
+			rotation: 0.0d
+			image: "nethersdelight:block/blackstone_stove_front_on"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 0.0d
+			y: -2.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "bewitchment:block/blackstone_witch_altar_end"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 0.8656462585033893d
+			y: -1.9872448979591795d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "bewitchment:block/blackstone_witch_altar_end"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -0.845238095238102d
+			y: -1.982142857142854d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "bygonenether:block/soul_stone"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 3.4265306122449246d
+			y: 1.176530612244889d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "bygonenether:block/soul_stone"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 4.274149659863959d
+			y: 1.1884353741496554d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "bygonenether:block/soul_stone"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 5.13129251700682d
+			y: 1.1884353741496554d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "bygonenether:block/soul_stone"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 4.283673469387793d
+			y: 2.0336734693877503d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "prominent:textures/text/the_nether.png"
+			width: 6.0d
+			click: ""
+			hover: [ ]
+			x: -5.0d
+			y: -1.5d
+			corner: false
+			dev: false
+			height: 3.0d
+		}
+	]
+	order_index: 1
+	quests: [
+		{
+			size: 2.0d
+			description: ["If you have trypophobia, go into the Resourcepacks menu and enable the Anti-trypophobia resourcepack."]
+			id: "01F6F88645FF1D1A"
+			icon: "minecraft:obsidian"
+			x: 0.0d
+			y: 2.0d
+			shape: "hexagon"
+			title: "&lEntering:&r &c&lThe Nether"
+			rewards: [{
+				id: "3767C7CAFE7C2EC4"
+				type: "item"
+				item: "minecraft:music_disc_pigstep"
+			}]
+			subtitle: "Create a nether portal using obsidian blocks, just like vanilla."
+			tasks: [{
+				type: "dimension"
+				id: "6858869D3694D250"
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:obsidian"
+				title: "Enter &cThe Nether"
+			}]
+		}
+		{
+			size: 1.5d
+			id: "6C8D88D7CA004F76"
+			x: 0.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "&lBossfight:&r &e&lBlackstone Golem"
+			rewards: [
+				{
+					id: "6B617308CDEE689C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6A30D8DDDE24D8EA"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "spectrum:clovers_favor"
+								lvl: 3s
+							}]
+						}
+					}
+				}
+			]
+			subtitle: "&a-&r Kill the &eBlackstone Golem"
+			dependencies: [
+				"01F6F88645FF1D1A"
+				"686AC6EAB1DB7A9D"
+			]
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "67CCB9F48681FF70"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "betternether:block/blackstone_furnace_front_on"
+					}
+				}
+				entity: "adventurez:stone_golem"
+			}]
+		}
+		{
+			size: 1.5d
+			id: "3A66485539F39154"
+			x: 4.3027210884353835d
+			y: 0.5027210884353721d
+			shape: "pentagon"
+			title: "&lBossfight:&r &8&lThe Wither"
+			rewards: [
+				{
+					id: "0DA46819539BBB06"
+					type: "item"
+					item: "handcrafted:wither_skeleton_trophy"
+				}
+				{
+					id: "4A651BFEAF6FE8A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "&a-&r Kill &8The Wither&r. To spawn it, you will need to use &eSoul Stone&r instead of Soul Sand."
+			dependencies: [
+				"5F9BBEB9211123DA"
+				"686AC6EAB1DB7A9D"
+			]
+			tasks: [{
+				type: "kill"
+				value: 1L
+				id: "112A6CB1B4B576EB"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "adventurez:textures/mob_effect/withering.png"
+					}
+				}
+				entity: "adventurez:stone_golem"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "59817003B0AC6824"
+					type: "item"
+					item: "bygonenether:soul_stone"
+					count: 4L
+				}
+				{
+					id: "5458C63B15B21D3E"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+					count: 3L
+				}
+			]
+			id: "5F9BBEB9211123DA"
+			x: 2.0d
+			y: 0.5d
+			title: "&eSummoning the Wither"
+			subtitle: "Get 4x &eSoul Stone&r, 3x &eWither Skull"
+			dependencies: ["01F6F88645FF1D1A"]
+		}
+	]
+}

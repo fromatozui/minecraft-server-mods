@@ -1,0 +1,13 @@
+name = "Food+ [Fabric]"
+filename = "food-plus-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ba95a9fe09884f3bac8539fc9141abc9cc8764f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3842641
+project-id = 517224

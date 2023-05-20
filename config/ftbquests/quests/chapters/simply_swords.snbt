@@ -1,0 +1,942 @@
+{
+	quest_links: [ ]
+	group: "555B69C1AF8C1C7F"
+	id: "75316E8D631F174C"
+	filename: "simply_swords"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	title: " &eGear: &6Simply Swords"
+	order_index: 2
+	quests: [
+		{
+			tasks: [{
+				id: "4FB0A82DBDA53AEC"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:brimstone_claymore"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:watcher_claymore"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:storms_edge"
+								Count: 1b
+								tag: {
+									nether_power: "socket_empty"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:stormbringer"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:bramblethorn"
+								Count: 1b
+								tag: {
+									nether_power: "socket_empty"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:watching_warglaive"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:toxic_longsword"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:emberblade"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:hearthflame"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:soulkeeper"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:twisted_blade"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:soulstealer"
+								Count: 1b
+								tag: {
+									nether_power: "socket_empty"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:soulrender"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:soulpyre"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:frostfall"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:molten_edge"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:livyatan"
+								Count: 1b
+								tag: {
+									nether_power: "socket_empty"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:icewhisper"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:arcanethyst"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:thunderbrand"
+								Count: 1b
+								tag: {
+									nether_power: "socket_empty"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:mjolnir"
+								Count: 1b
+								tag: {
+									nether_power: "socket_empty"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:slumbering_lichblade"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:waking_lichblade"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+							{
+								id: "simplyswords:awakened_lichblade"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "no_socket"
+								}
+							}
+							{
+								id: "simplyswords:shadowsting"
+								Count: 1b
+								tag: {
+									nether_power: "no_socket"
+									Damage: 0
+									runic_power: "socket_empty"
+								}
+							}
+						]
+					}
+				}
+			}]
+			id: "27C11BE1FFFE38E5"
+			x: -1.0d
+			y: -3.5d
+			title: "Obtaining Your First Unique Weapon"
+			rewards: [{
+				id: "1E872604AC9832A4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Unique Weapons have powerful effects that can change the tide of the battle in your favor."
+		}
+		{
+			tasks: [{
+				id: "7DF6259A99FA6916"
+				type: "item"
+				item: "simplyswords:empowered_remnant"
+			}]
+			id: "62525D32EE5F0FFC"
+			x: 0.0d
+			y: -2.0d
+			rewards: [
+				{
+					id: "302851DE3D25DEA2"
+					type: "item"
+					item: "simplyswords:runic_tablet"
+				}
+				{
+					id: "1C952B4FDBC976C9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Empowered Remnants are used to create powerful runes that can be attached to unique weapons. You can craft them via smelting a Unique Weapon in a Furnace."
+			dependencies: ["27C11BE1FFFE38E5"]
+		}
+		{
+			tasks: [{
+				id: "0369C0A6F82A3477"
+				type: "item"
+				title: "Get a socket gem"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "simplyswords:runefused_gem"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "simplyswords:netherfused_gem"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+			id: "0761195BB27B18D2"
+			x: -1.0d
+			y: -0.5d
+			title: "Getting your First Socket Gem"
+			rewards: [
+				{
+					id: "70CF4B2EE25612B1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "3D0F3723D4877F0C"
+					type: "item"
+					item: "simplyswords:runic_tablet"
+				}
+			]
+			subtitle: "Gems are powerful items that you can infuse on your Unique Weapons by right clicking the gem in your inventory and then left clicking the weapon that you want to infuse them with. Once they are on the weapon they can not be removed, so make sure to use the one you want!"
+			dependencies: [
+				"62525D32EE5F0FFC"
+				"33F8758A107DD559"
+			]
+		}
+		{
+			tasks: [{
+				id: "55DD3DAAF46E741A"
+				type: "item"
+				item: "simplyswords:runic_tablet"
+			}]
+			subtitle: "Runic Tablets are a very important item in the Simply Swords Mod. They can be used to create Gems for your Unique Weaponry and can be combined with a Unique Weapon in an anvil to repair them."
+			id: "33F8758A107DD559"
+			y: -2.0d
+			x: -2.0d
+			rewards: [{
+				id: "714F08F3BF478992"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+		{
+			tasks: [{
+				id: "3E69084F7BA080BA"
+				type: "item"
+				item: {
+					id: "simplyswords:brimstone_claymore"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "3E4F82BD7BE217E5"
+			y: 1.0d
+			x: -5.5d
+			rewards: [{
+				id: "7DB4F0CDF3F6F7DB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "6B539D447F079CD3"
+				type: "item"
+				item: {
+					id: "simplyswords:watcher_claymore"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "4FCC8AD211AE900F"
+			y: 0.0d
+			x: -6.0d
+			rewards: [{
+				id: "56BB6CA08AE84686"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "31E9798D39B2600C"
+				type: "item"
+				item: {
+					id: "simplyswords:storms_edge"
+					Count: 1b
+					tag: {
+						nether_power: "socket_empty"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "551578D6B1C3957D"
+			y: -1.0d
+			x: -5.5d
+			rewards: [{
+				id: "2175641AA6A5F342"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "140DAFE9C9634EBE"
+				type: "item"
+				item: {
+					id: "simplyswords:stormbringer"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "74A7B058D17CE796"
+			y: -1.5d
+			x: -4.5d
+			rewards: [{
+				id: "2395CC5A0E6D8D8A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "43EBF6EBC6E9E719"
+				type: "item"
+				item: {
+					id: "simplyswords:bramblethorn"
+					Count: 1b
+					tag: {
+						nether_power: "socket_empty"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "17C472EF1399DBEB"
+			y: -1.0d
+			x: -3.5d
+			rewards: [{
+				id: "676DC3EA7D6ACE74"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "17524205EAF934E6"
+				type: "item"
+				item: {
+					id: "simplyswords:watching_warglaive"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "2CFEF029E3A62CB4"
+			y: 0.0d
+			x: -3.0d
+			rewards: [{
+				id: "59CBFDFC88F13798"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "1A3890A47E90B6BC"
+				type: "item"
+				item: {
+					id: "simplyswords:toxic_longsword"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "6ED144B7F371E01F"
+			y: -1.0d
+			x: 1.5d
+			rewards: [{
+				id: "72F175DDA215F5FD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "1781D3C7B1D32CDE"
+				type: "item"
+				item: {
+					id: "simplyswords:emberblade"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "6F6188345EAD574F"
+			y: 0.0d
+			x: 1.0d
+			rewards: [{
+				id: "2854AEDCAA27356F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "7A1BB866809386F2"
+				type: "item"
+				item: {
+					id: "simplyswords:hearthflame"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "538351AAD40A25EC"
+			y: -1.5d
+			x: 2.5d
+			rewards: [{
+				id: "3A9DFD4B38FE74A4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "0D7EFFBC59382C95"
+				type: "item"
+				item: {
+					id: "simplyswords:soulkeeper"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "0286B2894117094A"
+			y: -1.0d
+			x: 3.5d
+			rewards: [{
+				id: "7D64622CEEE4329C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "35E2F04247D5AEE4"
+				type: "item"
+				item: {
+					id: "simplyswords:twisted_blade"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "4E3918EC7E3EA46B"
+			y: 0.0d
+			x: 4.0d
+			rewards: [{
+				id: "716FA9AB5ED134AD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "5E697385A619FBEF"
+				type: "item"
+				item: {
+					id: "simplyswords:soulrender"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "4CDB420F985704D0"
+			y: 1.0d
+			x: 3.5d
+			rewards: [{
+				id: "33D5EF821579DD2C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "088C05E174C2A19A"
+				type: "item"
+				item: {
+					id: "simplyswords:soulstealer"
+					Count: 1b
+					tag: {
+						nether_power: "socket_empty"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "52BDF8E711D2277F"
+			y: 1.5d
+			x: 2.5d
+			rewards: [{
+				id: "23A744AB2DEF7175"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "5B4CA3136D573B89"
+				type: "item"
+				item: {
+					id: "simplyswords:soulpyre"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "2F8B11AB30636B79"
+			y: 1.5d
+			x: -4.5d
+			rewards: [{
+				id: "0AF343648BE2B80C"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "5E3588BB58827888"
+				type: "item"
+				item: {
+					id: "simplyswords:frostfall"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "3D6829CE171F3261"
+			y: 1.0d
+			x: -3.5d
+			rewards: [{
+				id: "728A6DF11A6BF4FB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "665467D0557C2F7A"
+				type: "item"
+				item: {
+					id: "simplyswords:molten_edge"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "2EBE9CAF8D8B7099"
+			y: 4.0d
+			x: 0.0d
+			rewards: [{
+				id: "16B194466359845F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "75B9F7D4E9A377C7"
+				type: "item"
+				item: {
+					id: "simplyswords:livyatan"
+					Count: 1b
+					tag: {
+						nether_power: "socket_empty"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "0BACD31F95B9B307"
+			y: 3.0d
+			x: -2.5d
+			rewards: [{
+				id: "7B2060F624473A38"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "47D680EC45B5800A"
+				type: "item"
+				item: {
+					id: "simplyswords:icewhisper"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			id: "031153C62370ABA1"
+			y: 2.0d
+			x: -2.0d
+			rewards: [{
+				id: "51EC30902D57EDE1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "14127A4CCD2E222A"
+				type: "item"
+				item: {
+					id: "simplyswords:arcanethyst"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "5659D2DC279F4644"
+			y: 3.0d
+			x: 0.5d
+			rewards: [{
+				id: "0F550DD17D0785FE"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "0ECF05595D1F18FC"
+				type: "item"
+				item: {
+					id: "simplyswords:thunderbrand"
+					Count: 1b
+					tag: {
+						nether_power: "socket_empty"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "4D887CB33CBAD4ED"
+			y: 1.5d
+			x: -1.0d
+			rewards: [{
+				id: "0EDBB00A7F6236CB"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "5D055B0693351827"
+				type: "item"
+				item: {
+					id: "simplyswords:mjolnir"
+					Count: 1b
+					tag: {
+						nether_power: "socket_empty"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "12544298D5B2FE69"
+			y: 2.0d
+			x: 0.0d
+			rewards: [{
+				id: "10F69E0212A82344"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "1A9C09490514BC0A"
+				type: "item"
+				item: {
+					id: "simplyswords:slumbering_lichblade"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "0E00711F4F793607"
+			y: 4.0d
+			x: -2.0d
+			rewards: [{
+				id: "710B9D814686B227"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			tasks: [{
+				id: "0A68B3B782E5336E"
+				type: "item"
+				item: {
+					id: "simplyswords:waking_lichblade"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			x: -1.0d
+			id: "2040278B35483108"
+			y: 4.5d
+			shape: "pentagon"
+			rewards: [{
+				id: "71315D4567ABC8BA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			dependencies: ["0E00711F4F793607"]
+		}
+		{
+			tasks: [{
+				id: "62F2F99C869D96C6"
+				type: "item"
+				item: {
+					id: "simplyswords:awakened_lichblade"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "no_socket"
+					}
+				}
+			}]
+			x: -1.0d
+			id: "22D0E3247D404A95"
+			y: 3.0d
+			shape: "hexagon"
+			rewards: [
+				{
+					id: "7161CD56747B794E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3038A7B94D5ACB70"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 4s
+							}]
+						}
+					}
+				}
+			]
+			dependencies: ["2040278B35483108"]
+		}
+		{
+			tasks: [{
+				id: "47C8D50C59A710A6"
+				type: "item"
+				item: {
+					id: "simplyswords:shadowsting"
+					Count: 1b
+					tag: {
+						nether_power: "no_socket"
+						Damage: 0
+						runic_power: "socket_empty"
+					}
+				}
+			}]
+			id: "73E40553CE2E4D0E"
+			y: 1.0d
+			x: 1.5d
+			rewards: [{
+				id: "450D4E09D89F7C9A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+	]
+}

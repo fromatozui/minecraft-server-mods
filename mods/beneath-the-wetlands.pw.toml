@@ -1,0 +1,13 @@
+name = "Beneath the Wetlands"
+filename = "wetlands-1.0.2-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5442631f8c005beb2e361fc8051fb24d46b286a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4362990
+project-id = 813777

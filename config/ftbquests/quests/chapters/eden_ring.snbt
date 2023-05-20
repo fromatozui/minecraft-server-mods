@@ -1,0 +1,280 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "3E586F2160161EEA"
+	id: "17CACD65CDB7AF54"
+	filename: "eden_ring"
+	default_quest_shape: ""
+	icon: "minecraft:copper_block"
+	title: " &eEden Ring"
+	images: [
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_middle"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -0.5d
+			y: -5.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_e"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 0.34693877551019625d
+			y: -5.010204081632651d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_w"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -1.3630952380952408d
+			y: -5.008503401360542d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_s"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -0.5102040816326578d
+			y: -4.153061224489811d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_n"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -0.5102040816326578d
+			y: -5.867346938775508d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_se"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 0.34285714285713453d
+			y: -4.157142857142873d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_sw"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -1.3724489795918373d
+			y: -4.150510204081634d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_ne"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 0.34693877551019625d
+			y: -5.867346938775508d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_block_center_nw"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -1.367346938775512d
+			y: -5.867346938775505d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_pillar_top"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 1.5d
+			y: -3.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_pillar_top"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -2.5d
+			y: -3.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_pillar_top"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -2.5d
+			y: -7.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:block/portal_pillar_top"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 1.5d
+			y: -7.0d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "minecraft:block/large_amethyst_bud"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 1.5d
+			y: -3.1964285714285694d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "minecraft:block/large_amethyst_bud"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -2.5d
+			y: -3.1964285714285694d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "minecraft:block/large_amethyst_bud"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: 1.4770408163265287d
+			y: -7.146683673469386d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "minecraft:block/large_amethyst_bud"
+			width: 1.0d
+			click: ""
+			hover: [ ]
+			x: -2.5229591836734713d
+			y: -7.1875000000000036d
+			corner: false
+			dev: false
+			height: 1.0d
+		}
+		{
+			rotation: 0.0d
+			image: "prominent:textures/text/eden_ring.png"
+			width: 3.9d
+			click: ""
+			hover: [ ]
+			x: -0.5d
+			y: -8.5d
+			corner: false
+			dev: false
+			height: 2.0d
+		}
+		{
+			rotation: 0.0d
+			image: "edenring:textures/gui/illustrations/planet_logo.png"
+			width: 2.0d
+			click: ""
+			hover: [ ]
+			x: -0.5d
+			y: -9.5d
+			corner: false
+			dev: false
+			height: 2.0d
+		}
+	]
+	order_index: 5
+	quests: [{
+		size: 2.0d
+		description: [
+			"To create the portal to the &eEden Ring&r, you will first need 12 &n&6Waxed&r &6Blocks of Copper&r, 12 &n&6Waxed&r &6Cut Copper Stairs&r, 4 &dBlocks of Amethyst&r, 4 &dAmethyst Clusters&r, 1 &e&lGold Block&r, and a &7Flint and Steel&r."
+			""
+			"To build the portal itself, build a 3x3 platform of &6Copper Blocks&r. Replace the middle block with a &e&lGold Block&r."
+			""
+			"Surround the platform with &6Waxed Cut Copper Stairs&r, and replace the corners between the stairs with &6Copper Blocks&r."
+			""
+			"The four &6Copper Blocks &ryou just placed should then have &dAmethyst Blocks &rplaced on top, and then the &dAmethyst Clusters&r."
+			""
+			"Light the &e&lGold Block &rwith the &7Flint and Steel &rto activate the portal."
+		]
+		id: "756A4727CEB3E68C"
+		x: -0.5229591836734713d
+		y: -5.044642857142854d
+		shape: "hexagon"
+		title: "&lEntering:&r &e&lEden Ring"
+		rewards: [
+			{
+				id: "6C9054F93C2AE253"
+				type: "item"
+				item: "edenring:guide_book"
+			}
+			{
+				id: "3E036B952BCAA1F4"
+				type: "xp_levels"
+				xp_levels: 10
+			}
+		]
+		subtitle: "Click on this quest to view the description and read the portal activation guide."
+		tasks: [{
+			type: "dimension"
+			id: "2B2EB624435FCD5D"
+			dimension: "edenring:edenring"
+			icon: "minecraft:copper_block"
+			title: "Enter Eden Ring"
+		}]
+	}]
+}

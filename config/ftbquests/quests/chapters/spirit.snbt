@@ -1,0 +1,516 @@
+{
+	quest_links: [ ]
+	default_hide_dependency_lines: false
+	group: "244F516C4853FD2F"
+	id: "2707D68BA3699742"
+	filename: "spirit"
+	default_quest_shape: ""
+	icon: "spirit:soul_cage"
+	title: " &bSpirit"
+	images: [{
+		rotation: 0.0d
+		image: "spirit:textures/item/glossary.png"
+		width: 1.0d
+		click: ""
+		hover: [ ]
+		x: 5.5d
+		y: -8.0d
+		corner: false
+		dev: false
+		height: 1.0d
+	}]
+	order_index: 1
+	quests: [
+		{
+			tasks: [
+				{
+					id: "42BBEBAB57BCFCC9"
+					type: "checkmark"
+					title: "Get Started"
+				}
+				{
+					id: "0034A0494B0A6B62"
+					type: "item"
+					item: "spirit:broken_spawner"
+				}
+			]
+			icon: "minecraft:skeleton_skull"
+			x: -0.5d
+			id: "5E39E3AC6A6F5F53"
+			y: -9.0d
+			shape: "diamond"
+			title: "Death's First Steps"
+			rewards: [
+				{
+					id: "6ABF7669CF249988"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "407552ECE5A8FB55"
+					type: "xp"
+					xp: 200
+				}
+			]
+			subtitle: "Once you start this, you will understand the benefits of having an automatic mob farm. Let's play with the dead, shall we?"
+		}
+		{
+			tasks: [{
+				id: "2472D0D77FDE2C29"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 64L
+			}]
+			id: "76B3D33CBB07B359"
+			x: -2.0d
+			y: -7.0d
+			title: "Sand, but more gross"
+			subtitle: "Soul Sand will be the basis of starting Spirit. You're gonna need Soul Fire to create some of these tools."
+			dependencies: ["5E39E3AC6A6F5F53"]
+		}
+		{
+			tasks: [{
+				id: "4896E44F21632FC6"
+				type: "item"
+				item: "minecraft:glowstone"
+				count: 64L
+			}]
+			id: "54DF7CABC5714803"
+			x: 1.0d
+			y: -7.0d
+			title: "The Nether's Nightlights"
+			subtitle: "Glowstone is an important ingredient to start creating these soul tools. Remember to collect as much as you can if you want to be efficient."
+			dependencies: ["5E39E3AC6A6F5F53"]
+		}
+		{
+			tasks: [{
+				id: "686B3011436E7FB7"
+				type: "item"
+				item: "spirit:soul_powder"
+				count: 32L
+			}]
+			icon: "spirit:soul_powder"
+			id: "4854D04579FF7C76"
+			x: -0.5d
+			y: -5.0d
+			title: "Crushed Souls?"
+			rewards: [
+				{
+					id: "08A81A7C95049F4D"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 6
+				}
+				{
+					id: "3852FA75E0368797"
+					type: "item"
+					item: "minecraft:glass"
+					count: 6
+				}
+			]
+			subtitle: "Soul Powder is the next stage to creating these soul tools, and you will need a lot as these can get very expensive."
+			dependencies: [
+				"76B3D33CBB07B359"
+				"54DF7CABC5714803"
+			]
+		}
+		{
+			tasks: [{
+				id: "1BD2F81B1A14EBE6"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+				count: 16L
+			}]
+			id: "03F09ADC4410C72B"
+			x: 2.5d
+			y: -5.0d
+			title: "Soulless Iron"
+			subtitle: "Soulsteel Ingot is an important ingredient to make the tools. You will be able to create weapons out of this material that is better than iron."
+			dependencies: ["4854D04579FF7C76"]
+		}
+		{
+			tasks: [{
+				id: "263E251F1F23E758"
+				type: "item"
+				item: "spirit:soul_glass"
+				count: 32L
+			}]
+			dependencies: ["4854D04579FF7C76"]
+			subtitle: "Soul Glass is an ingredient used to create certain structures so remember to stock up on them."
+			id: "67DABE93EE941B93"
+			y: -5.0d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "3F7D509739EC1F58"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["03F09ADC4410C72B"]
+			id: "7A79E508061B611F"
+			y: -6.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "42D70B4B4587C2B7"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["03F09ADC4410C72B"]
+			id: "7BE09B03F481DD54"
+			y: -5.0d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "75DE7A0F72EFACBF"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["03F09ADC4410C72B"]
+			id: "50C06D5E5BF00183"
+			y: -3.5d
+			x: 2.5d
+		}
+		{
+			tasks: [{
+				id: "2BC02D83C26AA8F9"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["03F09ADC4410C72B"]
+			id: "21455393C7994111"
+			y: -3.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "7122D24DA66FC175"
+				type: "item"
+				item: {
+					id: "spirit:soul_steel_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			dependencies: ["03F09ADC4410C72B"]
+			id: "2F2094A840166F78"
+			y: -6.5d
+			x: 4.0d
+		}
+		{
+			tasks: [{
+				id: "5A73F36E4A28DAAC"
+				type: "item"
+				item: "spirit:soul_steel_wand"
+			}]
+			dependencies: ["03F09ADC4410C72B"]
+			id: "305FF0575BF7036A"
+			y: -5.0d
+			x: 5.5d
+		}
+		{
+			tasks: [{
+				id: "4CA716CCC32040A9"
+				type: "item"
+				item: "spirit:compressed_soul_powder_block"
+				count: 64L
+			}]
+			dependencies: ["4854D04579FF7C76"]
+			subtitle: "You're gonna need to compress these to make the even more complicated structures."
+			id: "70F1A78F8780E83B"
+			y: -3.0d
+			x: -2.0d
+		}
+		{
+			tasks: [{
+				id: "2ABC762D0DF74A23"
+				type: "item"
+				item: "spirit:compressed_soul_sand"
+				count: 64L
+			}]
+			dependencies: ["4854D04579FF7C76"]
+			subtitle: "Yes, you're gonna have to compress soul sand. Get your shovel ready and get digging."
+			id: "6B7C18247051817F"
+			y: -3.0d
+			x: 1.0d
+		}
+		{
+			tasks: [{
+				id: "5E8058209003608A"
+				type: "item"
+				item: "spirit:soul_steel_block"
+			}]
+			dependencies: [
+				"70F1A78F8780E83B"
+				"6B7C18247051817F"
+			]
+			subtitle: "Similar to what you think of an Iron Block, but this is an expensive material used to make the complicated items. Remember that you cannot turn it into 9 soulsteel ingots."
+			id: "6166DFB8C798C4F2"
+			y: -1.5d
+			x: -0.5d
+		}
+		{
+			tasks: [{
+				id: "43FEBFDD0CF56DA5"
+				type: "item"
+				item: "spirit:soul_slate"
+				count: 64L
+			}]
+			dependencies: ["76B3D33CBB07B359"]
+			id: "455EBA0385D18E98"
+			y: -7.0d
+			x: -3.5d
+		}
+		{
+			tasks: [{
+				id: "277B1E06B22DBFE7"
+				type: "item"
+				item: "spirit:soul_cage"
+			}]
+			id: "658371C9FC976CDB"
+			x: -0.5d
+			y: 0.0d
+			title: "Portable Monster Farm"
+			subtitle: "If you wanna have a spawner near your base, then this Soul Cage will be your best friend. "
+			dependencies: ["6166DFB8C798C4F2"]
+		}
+		{
+			tasks: [{
+				id: "337016112DC0BD3F"
+				type: "item"
+				item: "spirit:soul_crystal_shard"
+			}]
+			subtitle: "This is the starting point to making a portable mob farm. It'll be perfect to farm mobs with this, but remember that if you wanna kill a specific mob, make sure to kill it first."
+			id: "3E4EA01D58E5E2F3"
+			shape: "diamond"
+			y: -2.0d
+			x: -5.5d
+		}
+		{
+			tasks: [{
+				id: "2A8EAFD19D77BB61"
+				type: "item"
+				item: "spirit:crude_soul_crystal"
+			}]
+			dependencies: ["3E4EA01D58E5E2F3"]
+			subtitle: "This is Stage 2 of the crystal shard for storing mobs in. You still cannot use it for your Soul Cage yet."
+			id: "67134076AE230044"
+			y: -0.5d
+			x: -5.5d
+		}
+		{
+			tasks: [{
+				id: "08B3493A70E73CEF"
+				type: "item"
+				item: "spirit:soul_crystal"
+			}]
+			id: "1DA741A6944CBE2C"
+			x: -5.5d
+			y: 1.0d
+			rewards: [{
+				id: "21C3D0C254148F6D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "This is the final crystal, now you must farm at least a stack of the same mob you're looking for in order to make use of the Soul Cage. The more mobs you killed, the more efficient and abundant your Soul Cage will be."
+			dependencies: ["67134076AE230044"]
+		}
+		{
+			tasks: [{
+				id: "266A8211CD8CD74E"
+				type: "item"
+				item: "spirit:pedestal"
+				count: 10L
+			}]
+			id: "78640875F39611D7"
+			x: -5.0d
+			y: -7.0d
+			title: "Ritual Time"
+			subtitle: "These Pedestals are used to create two different pedestals used for two different rituals."
+			dependencies: ["455EBA0385D18E98"]
+		}
+		{
+			tasks: [{
+				id: "5CA8D93A8BD0FDB0"
+				type: "item"
+				item: "spirit:soul_pedestal"
+			}]
+			id: "4561C726BF32C094"
+			x: -6.0d
+			y: -8.0d
+			title: "Summoning Time"
+			rewards: [{
+				id: "153FB98C8D14DBB7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "The Soul Crystal is used to summon a mob, such as a Villager using certain items."
+			dependencies: ["78640875F39611D7"]
+		}
+		{
+			tasks: [{
+				id: "6649A1C416BD2280"
+				type: "item"
+				item: "spirit:crystal_pedestal"
+			}]
+			id: "74207DB380CC01B8"
+			x: -6.0d
+			y: -6.0d
+			title: "Soul Cleansing"
+			subtitle: "The Crystal Pedestal is used to help clean out your crude soul crystal if you accidentally killed a mobs you don't need."
+			dependencies: ["78640875F39611D7"]
+		}
+		{
+			tasks: [{
+				id: "772C0DF94987EA15"
+				type: "item"
+				item: "vitalize:soul_revitalizer"
+			}]
+			id: "639E020C9756F0EE"
+			x: -0.5d
+			y: 2.0d
+			title: "Auto Mob Farm?!"
+			subtitle: "Tired of killing monsters on your own and don't have time? The Soul Revitalizer will do it for you. Think of it as a compact auto mob farm. But this farm is very expensive so prepare."
+			dependencies: ["658371C9FC976CDB"]
+		}
+		{
+			tasks: [{
+				id: "12F1BDFCA8465548"
+				type: "item"
+				item: "vitalize:pylon_base"
+			}]
+			x: 2.5d
+			id: "495A523B78A3A0B0"
+			y: 2.0d
+			shape: "rsquare"
+			subtitle: "Pylons are used to make your Soul Revitalizer function, you will need 8 of these to make it work."
+			dependencies: ["639E020C9756F0EE"]
+		}
+		{
+			tasks: [{
+				id: "53761D8D45481615"
+				type: "item"
+				item: "vitalize:pylon_efficiency"
+			}]
+			x: 2.5d
+			id: "5EAB0FD758C963AB"
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "This Pylon reduces the amount of power your Soul Revitalizer will use to function."
+			dependencies: ["495A523B78A3A0B0"]
+		}
+		{
+			tasks: [{
+				id: "3933F426D94EFC53"
+				type: "item"
+				item: "vitalize:pylon_beheading"
+			}]
+			x: 4.0d
+			id: "5A1232D0EAFB137B"
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "This Pylon will do it's best to behead the mobs that you want their head for. Not all mobs have a head drop so use it on a mob that has one."
+			dependencies: ["495A523B78A3A0B0"]
+		}
+		{
+			tasks: [{
+				id: "329682CEA87743E6"
+				type: "item"
+				item: "vitalize:pylon_looting"
+			}]
+			x: 4.0d
+			id: "3F8F284BA9070B87"
+			y: 2.0d
+			shape: "diamond"
+			subtitle: "This Pylon will make the Soul Revitalizer increase the mob drops significantly."
+			dependencies: ["495A523B78A3A0B0"]
+		}
+		{
+			tasks: [{
+				id: "480520ED715A5BD8"
+				type: "item"
+				item: "vitalize:pylon_speed"
+			}]
+			x: 4.0d
+			id: "2D459189F481ADDB"
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "This Pylon will speed up it's mob killing cycle but at the cost of more power to function."
+			dependencies: ["495A523B78A3A0B0"]
+		}
+		{
+			tasks: [{
+				id: "22039D307D6748C9"
+				type: "item"
+				item: "vitalize:pylon_experience"
+			}]
+			x: 2.5d
+			id: "3C1A8FD2A43101C0"
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "This Pylon will condense the xp into items that can be used later."
+			dependencies: ["495A523B78A3A0B0"]
+		}
+		{
+			tasks: [{
+				id: "4274F889C37A3515"
+				type: "item"
+				item: "vitalize:pylon_flame"
+			}]
+			x: 1.0d
+			id: "22DE0FD43001B313"
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "This Pylon will add in a fire or flame aspect from weapons into the killing cycle, good for cooking animals and some mobs with food drops."
+			dependencies: ["495A523B78A3A0B0"]
+		}
+		{
+			tasks: [{
+				id: "0C0A2F3542FFF3ED"
+				type: "item"
+				item: "vitalize:pylon_recursive"
+			}]
+			x: 1.0d
+			id: "1B369F3CC075E6D5"
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "This Pylon will increase the chances of adding a soul into your soul crystal, thereby making it's tier higher, and more efficient."
+			dependencies: ["495A523B78A3A0B0"]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "GottschCore"
+filename = "GottschCore-fabric-mc1.19.2-2.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1b8cffc4aedd8408c625a142b247169fd3995e80"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4510980
+project-id = 272450

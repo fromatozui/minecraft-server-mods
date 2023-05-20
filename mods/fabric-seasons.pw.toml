@@ -1,0 +1,13 @@
+name = "Fabric Seasons"
+filename = "fabric-seasons-2.1+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f2376aa631effee1a874d3867a4f38facdb141f2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4533574
+project-id = 413523

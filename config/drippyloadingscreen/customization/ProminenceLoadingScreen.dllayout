@@ -1,0 +1,77 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = fancymenu_data/textures/backgrounds/loading_screen-remastered.png
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 812008
+}
+
+customization {
+  visible = false
+  x = 1
+  action = editlogo
+  y = 112
+}
+
+customization {
+  orientation = mid-centered
+  x = -2
+  action = editprogressbar
+  y = 58
+  barcolor = fbbc47
+}
+
+customization {
+  path = fancymenu_data/textures/icons/prominence_full.png
+  orientation = mid-centered
+  x = -3
+  width = 306
+  action = addtexture
+  actionid = 27ddd01b-954e-4b68-8515-e5dbcf9f56e11678046196938
+  y = -38
+  height = 149
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 1
+  textcolor = #ffffff
+  action = addtext
+  actionid = a020997f-3041-477a-9aa4-d66eb75f7fe01678046547656
+  y = -12
+  scale = 1.0
+  alignment = left
+  value = A Luna Pixel Studios Modpack
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 1
+  textcolor = #ffffff
+  action = addtext
+  actionid = 28bc833d-eb7d-4fab-ab8b-c6e0a7ac1c1f1678046604198
+  y = -2
+  scale = 1.0
+  alignment = left
+  value = Developed by ElocinDev
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -1
+  textcolor = #ffffff
+  action = addtext
+  actionid = 11e34661-87bc-4c8f-abc1-935f0376f9611678046690463
+  y = -3
+  scale = 1.0
+  alignment = left
+  value = Copyright (C) Mojang Studios
+}
+
